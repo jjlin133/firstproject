@@ -114,8 +114,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-BASE_DIR2 = os.path.dirname(os.path.dirname(__file__))
-
 STATIC_ROOT = 'static'
 #SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
@@ -124,5 +122,5 @@ STATIC_ROOT = 'static'
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [  #加入 static 路徑
-    os.path.join(BASE_DIR2, 'static'),
+    os.path.join(BASE_DIR, 'static'),'/static/',
 ]
