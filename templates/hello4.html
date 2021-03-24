@@ -4,11 +4,11 @@
     <meta charset='utf-8'>
     <title>顯示圖片的模版</title>
     {% load staticfiles %}
-    <link href="{% static "/css/style.css" %}" rel="stylesheet" type="text/css" />
+    <link href="{% static "css/style.css" %}" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div id="home">
-        <img src="{% static "/images/ball.png" %}" width="32" height="32" />
+        <img src="{% static "images/ball.png" %}" width="32" height="32" />
   	    <span class="info"> 歡迎光臨： {{username}}</span>
         <h2> 現在時刻： {{now}} </h2>
     </div>   
