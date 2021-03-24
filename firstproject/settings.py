@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-	'myapp',
+    'myapp',
 ]
 
 MIDDLEWARE = [
@@ -102,9 +102,9 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 # Internationalization
-# https://docs.djangoproject.com/en/2.1/topics/i18n/
+# https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'zh_Hant'
+LANGUAGE_CODE = 'zh-Hant'
 
 TIME_ZONE = 'Asia/Taipei'
 
@@ -114,12 +114,13 @@ USE_L10N = True
 
 USE_TZ = True
 
+STATIC_ROOT = 'static'
+#SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/2.1/howto/static-files/
+# https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
-# 加入 static 路徑
-STATICFILES_DIRS = [    
+STATICFILES_DIRS = [  #加入 static 路徑
     os.path.join(BASE_DIR, 'static'),
 ]
