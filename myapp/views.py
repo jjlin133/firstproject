@@ -2,6 +2,9 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from datetime import datetime
 
+# 增加 ~~~
+from django.conf import settings
+
 # Create your views here.
 # define sayhello
 def sayhello(request):
