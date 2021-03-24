@@ -23,6 +23,6 @@ urlpatterns = [
     url(r'^$', sayhello), 
     url(r'^hello3/(\w+)/$', hello3), 
     url(r'^hello4/(\w+)/$', hello4),
-	url(r'^fv/$', fv),		
-	url(r'^fv2/$', fv2),	
+    url(r'^fv/$', fv),		
+    url(r'^fv2/$', fv2),	
 ]
