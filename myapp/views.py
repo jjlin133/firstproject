@@ -4,6 +4,7 @@ from datetime import datetime
 
 # 增加 ~~~
 from django.conf import settings
+from linebot.models import *
 
 # Create your views here.
 # define sayhello
