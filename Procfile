@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath companys companys.wsgi
+web: gunicorn --pythonpath firstproject firstproject.wsgi
