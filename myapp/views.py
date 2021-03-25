@@ -20,7 +20,7 @@ def hello3(request,username):
 # define hello4
 def hello4(request,username):
    now=datetime.now()
-   username="Jen-Jen Lin @2021.0320"
+#   username="Jen-Jen Lin @2021.0320"
    return render(request,"hello4.html",locals()) 
 
 # define fv
